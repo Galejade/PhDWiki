@@ -66,8 +66,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 	margin: 20px auto 0;
 	width: 200px;
 	text-align: center;
-	color: #333333;
-	fill: #333333;
+	color: rgba(0, 0, 0, 0.87);
+	fill: rgba(0, 0, 0, 0.87);
 }html body.tc-body {
   background: #f4f4f4;
 }
@@ -82,7 +82,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 .line {
   width: 50px;
   height: 1px;
-  background: #bbb;
+  background: rgba(0, 0, 0, 0.54);
   -webkit-animation: line 2s infinite; 
   -moz-animation: line 2s infinite; 
   -o-animation: line 2s infinite; 
@@ -101,7 +101,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 .linetwo {
   width: 50px;
   height: 1px;
-  background: #bbb;
+  background: rgba(0, 0, 0, 0.54);
   -webkit-animation: linetwo 2s infinite; 
   -moz-animation: linetwo 2s infinite; 
   -o-animation: linetwo 2s infinite; 
@@ -121,7 +121,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE." />
 .linethree {
   width: 50px;
   height: 1px;
-  background: #bbb;
+  background: rgba(0, 0, 0, 0.54);
   -webkit-animation: linethree 2s infinite; 
   -moz-animation: linethree 2s infinite; 
   -o-animation: linethree 2s infinite; 
@@ -241,6 +241,8 @@ Error message and password prompt
 
 <li>$:/ak/plugins/DailyNotes/DN-timeTiddler/20200604</li>
 
+<li>$:/ak/plugins/DailyNotes/DN-timeTiddler/20210410</li>
+
 <li>$:/ak/plugins/DailyNotes/Tasks/Lists/inbox</li>
 
 <li>$:/ak/plugins/DailyNotes/Tasks/Status/202006</li>
@@ -351,11 +353,15 @@ Error message and password prompt
 
 <li>$:/state/tab-2065006209</li>
 
+<li>$:/state/tab/sidebar--595412856</li>
+
 <li>$:/status/RequireReloadDueToPluginChange</li>
 
 <li>$:/StoryList</li>
 
 <li>$:/tags/SideBarSegment</li>
+
+<li>$:/temp/Append</li>
 
 <li>$:/temp/info-plugin</li>
 
@@ -392,6 +398,8 @@ Error message and password prompt
 <li>$:/themes/tiddlywiki/vanilla/options/stickytitles</li>
 
 <li>$:/view</li>
+
+<li>20210409</li>
 
 </ul>
 </p>
@@ -926,13 +934,18 @@ Search in fields... &amp;nbsp; &lt;span class=&quot;tc-advanced-search-check&quo
     }
 }</pre>
 </div>
-<div bag="default" created="20200513073752237" modified="20200604100726415" revision="0" title="$:/ak/plugins/DailyNotes/DN-Selection" type="text/vnd.tiddlywiki">
-<pre>20200604</pre>
+<div bag="default" created="20200513073752237" modified="20210410015357390" revision="0" title="$:/ak/plugins/DailyNotes/DN-Selection" type="text/vnd.tiddlywiki">
+<pre>20210409</pre>
 </div>
 <div bag="default" created="20200604100614855" modified="20200604100726478" revision="0" title="$:/ak/plugins/DailyNotes/DN-timeTiddler/20200604" type="application/json">
 <pre>{
     &quot;20200604100613847&quot;: &quot;13:06&quot;,
     &quot;20200604100725569&quot;: &quot;13:07&quot;
+}</pre>
+</div>
+<div created="20210410015357389" modified="20210410015357389" title="$:/ak/plugins/DailyNotes/DN-timeTiddler/20210410" type="application/json">
+<pre>{
+    &quot;20210410015356665&quot;: &quot;21:53&quot;
 }</pre>
 </div>
 <div bag="default" created="20200604100630211" done="" modified="20200604100632049" pending="20200604100613847" revision="0" title="$:/ak/plugins/DailyNotes/Tasks/Lists/inbox" type="text/vnd.tiddlywiki">
@@ -10938,8 +10951,8 @@ toolbar-done-button:
 untagged-background: &lt;&lt;colour very-muted-foreground&gt;&gt;
 very-muted-foreground: rgba(255, 255, 255, 0.12)</pre>
 </div>
-<div bag="default" created="20190202142805411" creator="jd" modified="20210410015044253" modifier="jd" revision="0" title="$:/palette" type="text/vnd.tiddlywiki">
-<pre>$:/palettes/Vanilla</pre>
+<div bag="default" created="20190202142805411" creator="jd" modified="20210410015445050" modifier="jd" revision="0" title="$:/palette" type="text/vnd.tiddlywiki">
+<pre>$:/themes/jd/Mono/Palette/SpartanDay</pre>
 </div>
 <div bag="default" caption="{{$:/core/images/advanced-search-button}} search" created="20171122115403541" creator="JD" description="Toggle searchbar visibility" modified="20200430205248593" modifier="JD" revision="0" tags="$:/tags/jd/mobbutton" title="$:/plugins/jd/mob/button/search" type="text/vnd.tiddlywiki">
 <pre>&lt;$reveal type=&quot;nomatch&quot; state=&quot;$:/plugins/jd/mob/config/config##searchbar&quot; text=&quot;yes&quot;&gt;
@@ -11220,22 +11233,28 @@ html body.tc-body {
 <div created="20210410015027806" modified="20210410015027806" title="$:/state/styled-frames">
 <pre>no</pre>
 </div>
-<div created="20210410015019424" modified="20210410015037662" title="$:/state/tab--1963855381">
-<pre>$:/core/ui/ControlPanel/Palette</pre>
+<div created="20210410015019424" modified="20210410015433750" title="$:/state/tab--1963855381">
+<pre>$:/themes/jd/Mono/Config</pre>
 </div>
-<div created="20210410015016546" modified="20210410015054454" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Saving</pre>
+<div created="20210410015016546" modified="20210410015432984" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Appearance</pre>
 </div>
 <div created="20210410015137262" modified="20210410015137262" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/GitHub</pre>
 </div>
+<div created="20210410015405456" modified="20210410015426398" title="$:/state/tab/sidebar--595412856">
+<pre>$:/core/ui/SideBar/Tools</pre>
+</div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
 </div>
-<div created="20210410015014314" list="$:/ControlPanel [[Welcome to Drift]]" modified="20210410015014314" title="$:/StoryList">
+<div created="20210410015014314" list="" modified="20210410015440503" title="$:/StoryList">
 <pre></pre>
 </div>
 <div bag="default" created="20200502112123171" list="$:/core/ui/SideBarSegments/site-title $:/core/ui/SideBarSegments/site-subtitle $:/core/ui/SideBarSegments/page-controls $:/core/ui/SideBarSegments/search $:/core/ui/SideBarSegments/tabs" modified="20200502112123186" revision="0" title="$:/tags/SideBarSegment" type="text/vnd.tiddlywiki">
+<pre></pre>
+</div>
+<div created="20210410015353414" modified="20210410015357390" title="$:/temp/Append">
 <pre></pre>
 </div>
 <div plugin-type="info" title="$:/temp/info-plugin" type="application/json">
@@ -12456,6 +12475,10 @@ div::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.12); }
 </div>
 <div bag="default" created="20200429143346003" modified="20200518215459154" revision="0" title="$:/view" type="text/vnd.tiddlywiki">
 <pre>zoomin</pre>
+</div>
+<div created="20210410015357389" modified="20210410015357390" tags="DailyNotes" title="20210409">
+<pre>
+''&lt;&lt;dn-ts 20210410015356665&gt;&gt;''~Hello &lt;br /&gt;</pre>
 </div>
 
 
